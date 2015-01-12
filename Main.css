@@ -83,19 +83,21 @@ h1{
   margin-top: 0;
   margin-bottom: 2px;
   overflow: hidden;
+  clear: both;
 }
 .tiy{
-  margin-left: 165px;
-  vertical-align: center;
+  margin-left: 208px;
+  bottom: 32px;
+  position: absolute;
 }
 .nav{
-  position: right;
-  margin: 0;
-  overflow: hidden;
+  color: #A0B0BD;
+  float: right;
 }
 .lady{
   position: relative;
   overflow: hidden;
+  top: 90px;
 }
 .avatar-left{
   position: relative;
@@ -117,9 +119,7 @@ h1{
   margin-left: 70%;
   overflow: hidden;
 }
-.name{
 
-}
 .whoa{
   width: 290px;
   height: 100px;
@@ -136,8 +136,47 @@ h2{
   color: #005CAA;
   border-left: 1 px solid grey;
 }
-.bottomfooter{
-  overflow: hidden;
+.surfer {
+  float: left;
   position: absolute;
-  float: bottom;
+  bottom: 100px;
+}
+.cr{
+  position: absolute;
+  left: 267px;
+  bottom: 35px;
+  color: #A0B0BD
+}
+.on{
+  color: #A0B0BD;
+}
+.date{
+  color: #A0B0BD;
+  text-decoration: underline;
+}
+.a1{
+  float: right;
+  padding-top: 40px;
+  padding-right: 15px;
+  color: #A0B0BD;
+  border-right: 1 px solid #A0B0BD;
+}
+.a2
+{
+  float: right;
+  padding-top: 40px;
+  padding-right: 15px;
+  color: #A0B0BD;
+}
+.a3{
+  float: right;
+  padding-top: 40px;
+  padding-right: 15px;
+  color: #A0B0BD;
+}
+.a5{
+  float: right;
+  padding-top: 40px;
+  margin-right: 170px;
+  color: #A0B0BD;
 }
