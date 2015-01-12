@@ -91,6 +91,7 @@ h1{
 .nav{
   position: right;
   margin: 0;
+  overflow: hidden;
 }
 .lady{
   position: relative;
@@ -130,4 +131,13 @@ h1{
 .footer img{
   width: 25%;
   float: left;
+}
+h2{
+  color: #005CAA;
+  border-left: 1 px solid grey;
+}
+.bottomfooter{
+  overflow: hidden;
+  position: absolute;
+  float: bottom;
 }
