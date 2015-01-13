@@ -68,6 +68,7 @@ h1{
 
 .hea{
   font-size: 42pt;
+  color: #083452;
 }
 .footer{
   border-top: 1px solid grey;
@@ -97,16 +98,18 @@ h1{
 .lady{
   position: relative;
   overflow: hidden;
-  top: 90px;
+  top: 105px;
 }
 .avatar-left{
   position: relative;
   width: 3%;
+  left: 0px;
 }
 
 .avatar-right{
   float: right;
   position: relative;
+  right: 125px;
 }
 
 .left{
@@ -121,11 +124,15 @@ h1{
 }
 
 .whoa{
-  width: 290px;
+  width: 700px;
   height: 100px;
 }
 .sidebarhead{
-  overflow: hidden;
+  float: right;
+  position: relative;
+  top: 85px;
+  color: #A0B0BD;
+
 }
 
 .footer img{
@@ -134,7 +141,10 @@ h1{
 }
 h2{
   color: #005CAA;
-  border-left: 1 px solid grey;
+  font-size: 20pt;
+  border-left: 1px solid grey;
+  margin-left: -40px;
+  padding-left: 56px;
 }
 .surfer {
   float: left;
@@ -156,27 +166,97 @@ h2{
 }
 .a1{
   float: right;
-  padding-top: 40px;
-  padding-right: 15px;
   color: #A0B0BD;
-  border-right: 1 px solid #A0B0BD;
+  border-right: 1px solid #A0B0BD;
+  padding-right: 10px;
+  padding-left: 10px;
+
 }
-.a2
-{
-  float: right;
-  padding-top: 40px;
-  padding-right: 15px;
-  color: #A0B0BD;
+.navitem{
+  height: 25px;
+  text-align: center;
+  margin-right: 135px;
+  margin-top: 50px;
 }
-.a3{
-  float: right;
-  padding-top: 40px;
-  padding-right: 15px;
-  color: #A0B0BD;
+.social{
+  height: 15px;
+  text-align: center;
+  position: relative;
+  top: 81px;
+  left: 15px;
 }
-.a5{
+.s1{
   float: right;
-  padding-top: 40px;
-  margin-right: 170px;
-  color: #A0B0BD;
+  padding-right: 5px;
+  padding-left: 4px;
+}
+.lastitem{
+  border: none;
+}
+.navgallery{
+  height: 330px;
+  width: 325px;
+  float: right;
+}
+.ng1{
+  background-image: url('Assets/Whiskey.jpg');
+}
+.ng2{
+  background-image: url('Assets/zach.jpg');
+}
+.ng3{
+  background-image: url('Assets/beer.jpg');
+}
+.ng4{
+  background-image: url('Assets/SurferGuy.jpg');
+}
+.navcontainer{
+  margin-right: 60px;
+}
+.ngselected{
+  opacity: 0;
+}
+.ngmask{
+  background-image: none;
+  background-color: #083452;
+  opacity: .5;
+}
+.ngmask:hover{
+  opacity: 0;
+}
+.anne{
+  font-size: 14px;
+  position: relative;
+  top: 94px;
+  right: -41px;
+  color: #0668B0;
+}
+.anothercoolpost{
+  float: right;
+  position: relative;
+}
+.ngp4{
+  position: absolute;
+  bottom: 110px;
+  font-size: 28px;
+  left: 92px;
+}
+.ngp3{
+  position: absolute;
+  font-size: 28px;
+  bottom: 110px;
+  left: 430px;
+  color: white;
+}
+.ngp2{
+  position: absolute;
+  font-size: 28px;
+  bottom: 140px;
+  display: inline-block;
+}
+.ngp1{
+  position: absolute;
+  font-size: 28px;
+  bottom: 110px;
+  right: 115px;
 }
