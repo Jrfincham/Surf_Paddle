@@ -1,11 +1,11 @@
 //colors
 $heading-color :  #005CAA;
-$grayish : #A0B0BD
+$grayish : #A0B0BD;
 
 //positioning
 
-$absolute : absolute;
-$relative : relative;
+$absolute: absolute;
+$relative: relative;
 
 .container {
   position: $relative;
@@ -24,7 +24,7 @@ $relative : relative;
 .surfco {
   position: $absolute;
   font-size: 72pt;
-  color: $white;
+  color: white;
   top: 200px;
   left: 200px;
 }
