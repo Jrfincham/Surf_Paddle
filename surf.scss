@@ -1,277 +1,263 @@
-.container{
+//colors
+$heading-color :  #005CAA;
+
+.container {
   position: relative;
 }
-
-.header{
+.header {
   background-image: url(Assets/header.jpg);
   height: 525px;
 }
-
-.surf{
+.surf {
   position: absolute;
   left: 200px;
   top: 20px;
   font-size: 14pt;
-  color: #083451;
+  color: $color_tarawera_approx;
 }
-
-.surfco{
+.surfco {
   position: absolute;
   font-size: 72pt;
-  color: white;
+  color: $white;
   top: 200px;
   left: 200px;
 }
-
-.about{
+.about {
   position: absolute;
   top: 20px;
   right: 290px;
   overflow: hidden;
   font-size: 14pt;
 }
-.search{
+.search {
   position: absolute;
   overflow: hidden;
   top: 20px;
   right: 215px;
   font-size: 14pt;
 }
-
-.logo{
+.logo {
   position: absolute;
   top: 10px;
   overflow: hidden;
   left: 140px;
 }
-
-.topicon{
+.topicon {
   position: absolute;
   overflow: hidden;
   top: 20px;
   right: 195px;
 }
-.ironyard{
+.ironyard {
   position: absolute;
   top: 315px;
   left: 500px;
 }
-.textbox{
+.textbox {
   width: 80%;
   margin: 50px auto;
   overflow: hidden;
 }
-h1{
+h1 {
   font-size: 42pt;
-
 }
-
-.hea{
+.hea {
   font-size: 42pt;
-  color: #083452;
+  color: $color_tarawera_approx;
 }
-.footer{
-  border-top: 1px solid grey;
-  padding-top: 0
-
+.footer {
+  border-top: 1px solid $gray;
+  padding-top: 0;
+  img {
+    width: 25%;
+    float: left;
+  }
 }
-.mostpopular{
+.mostpopular {
   text-align: center;
   color: #083452;
 }
-.bottomfooter{
-  background-color: #083452;
+.bottomfooter {
+  background-color: $color_tarawera_approx;
   height: 100px;
   margin-top: 0;
   margin-bottom: 2px;
   overflow: hidden;
   clear: both;
 }
-.tiy{
+.tiy {
   margin-left: 208px;
   bottom: 32px;
   position: absolute;
 }
-.nav{
+.nav {
   color: #A0B0BD;
   float: right;
 }
-.lady{
+.lady {
   position: relative;
   overflow: hidden;
   top: 105px;
 }
-.avatar-left{
+.avatar-left {
   position: relative;
   width: 3%;
-  left: 0px;
+  left: 0;
 }
-
-.avatar-right{
+.avatar-right {
   float: right;
   position: relative;
   right: 125px;
 }
-
-.left{
+.left {
   float: left;
   width: 70%;
 }
-
-.rightcolumn{
+.rightcolumn {
   text-align: center;
   margin-left: 70%;
   overflow: hidden;
 }
-
-.whoa{
+.whoa {
   width: 700px;
   height: 100px;
 }
-.sidebarhead{
+.sidebarhead {
   float: right;
   position: relative;
   top: 85px;
   color: #A0B0BD;
-
 }
-
-.footer img{
-  width: 25%;
-  float: left;
-}
-.top{
+.top {
   width: 650px;
 }
-h2{
+h2 {
   color: #005CAA;
   font-size: 20pt;
-  border-left: 1px solid grey;
+  border-left: 1px solid $gray;
   margin-left: -40px;
   padding-left: 56px;
 }
-.bottom{
+.bottom {
   padding-top: 25px;
   height: 250px;
   width: 650px;
-
 }
 .surfer {
   float: left;
   position: absolute;
   bottom: 100px;
 }
-.cr{
+.cr {
   position: absolute;
   left: 267px;
   bottom: 35px;
-  color: #A0B0BD
-}
-.on{
   color: #A0B0BD;
 }
-.date{
+.on {
+  color: #A0B0BD;
+}
+.date {
   color: #A0B0BD;
   text-decoration: underline;
 }
-.a1{
+.a1 {
   float: right;
   color: #A0B0BD;
   border-right: 1px solid #A0B0BD;
   padding-right: 10px;
   padding-left: 10px;
-
 }
-.navitem{
+.navitem {
   height: 25px;
   text-align: center;
   margin-right: 135px;
   margin-top: 50px;
 }
-.social{
+.social {
   height: 15px;
   text-align: center;
   position: relative;
   top: 81px;
   left: 25px;
 }
-h3{
+h3 {
   color: #015DAA;
   position: relative;
   right: 10px;
   top: 15px;
 }
-.s1{
+.s1 {
   float: right;
   padding-right: 5px;
   padding-left: 4px;
 }
-.lastitem{
+.lastitem {
   border: none;
 }
-.navgallery{
+.navgallery {
   height: 330px;
   width: 325px;
   float: right;
 }
-.ng1{
+.ng1 {
   background-image: url('Assets/Whiskey.jpg');
 }
-.ng2{
+.ng2 {
   background-image: url('Assets/zach.jpg');
 }
-.ng3{
+.ng3 {
   background-image: url('Assets/beer.jpg');
 }
-.ng4{
+.ng4 {
   background-image: url('Assets/SurferGuy.jpg');
 }
-.navcontainer{
+.navcontainer {
   margin-right: 60px;
 }
-.ngselected{
+.ngselected {
   opacity: 0;
 }
-.ngmask{
+.ngmask {
   background-image: none;
-  background-color: #083452;
+  background-color: $color_tarawera_approx;
   opacity: .5;
+  &:hover {
+    opacity: 0;
+  }
 }
-.ngmask:hover{
-  opacity: 0;
-}
-.anne{
+.anne {
   font-size: 14px;
   position: relative;
   top: 94px;
   right: -41px;
   color: #0668B0;
 }
-.anothercoolpost{
+.anothercoolpost {
   float: right;
   position: relative;
 }
-.ngp4{
+.ngp4 {
   position: absolute;
   bottom: 110px;
   font-size: 28px;
   left: 92px;
 }
-.ngp3{
+.ngp3 {
   position: absolute;
   font-size: 28px;
   bottom: 110px;
   left: 430px;
-  color: white;
+  color: $white;
 }
-.ngp2{
+.ngp2 {
   position: absolute;
   font-size: 28px;
   bottom: 105px;
   right: 395px;
   width: 300px;
 }
-.ngp1{
+.ngp1 {
   position: absolute;
   font-size: 28px;
   bottom: 110px;
